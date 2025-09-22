@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Forge - Product Details</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="details.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <img src="images/Time.jpg" alt="Time Forge Logo" class="logo">
+    <h1>Time Forge</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <div class="product-container">
+    <h2 id="product-name"></h2>
+    <img id="product-image" src="" alt="Product Image">
+    <p id="product-description"></p>
+    <p><strong>Price (₦):</strong> <span id="product-price-naira"></span></p>
+    <p><strong>Price ($):</strong> <span id="product-price-usd"></span></p>
+
+    <button onclick="addToCart(productName)">Add to Cart</button>
+    <a href="cart.html"><button>Go to Cart</button></a>
+  </div>
+
+  <div class="footer-contact">
+    <a href="mailto:nnagodwinsomto@gmail.com">nnagodwinsomto@gmail.com</a> |
+    <a href="https://wa.me/2348066675722" target="_blank">WhatsApp: 080 6677 572</a>
+  </div>
+</body>
+</html>
